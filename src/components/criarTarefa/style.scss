@@ -1,0 +1,41 @@
+@import "../../variaveis.scss";
+
+form {
+  padding: 0px $distancia;
+
+  .boxInputs {
+    display: flex;
+    margin-top: $distancia;
+    align-items: center;
+  }
+
+  .labelTarefa {
+    margin-left: 22px;
+  }
+
+  input {
+    width: 50vw;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: $distancia;
+    border: 1px solid black;
+  }
+
+  input:focus {
+    outline: 0;
+  }
+
+  button {
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 18px;
+    margin-top: $distancia;
+    margin-right: $distancia;
+    background-color: $corPrincipal;
+  }
+
+  button:focus {
+    outline: 0;
+  }
+}

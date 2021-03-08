@@ -1,0 +1,30 @@
+@import "../../variaveis.scss";
+
+table {
+  width: 100%;
+  padding: $distancia 0px;
+
+  th {
+    text-align: left;
+    font-size: larger;
+    font-family: $font;
+    color: $corPrincipal;
+  }
+
+  td {
+    width: 50vh;
+  }
+
+  button {
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 18px;
+    margin-right: 2px;
+    background-color: $corPrincipal;
+  }
+
+  button:focus {
+    outline: 0;
+  }
+}

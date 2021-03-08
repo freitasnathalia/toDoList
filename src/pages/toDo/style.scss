@@ -1,0 +1,35 @@
+@import "../../variaveis.scss";
+
+* {
+  margin: 0px;
+}
+
+.container {
+  height: 100vh;
+}
+
+.titulo {
+  display: flex;
+  padding: $distancia 80px;
+  align-items: center;
+  background-color: $corPrincipal;
+  font-family: $font;
+
+  h1 {
+    margin-left: $distancia;
+    color: $corTitulo;
+  }
+}
+
+.icon {
+  color: $corTitulo;
+}
+
+.lista {
+  margin: 50px $distancia;
+
+  h2 {
+    font-family: $font;
+    color: $corSubTitulo;
+  }
+}
